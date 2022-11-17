@@ -1,0 +1,10 @@
+### Создание и добавление сотрудика
+POST http://localhost:8080/employees
+Content-Type: application/json
+
+{
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "department": 1,
+  "salary": 5000
+}
